@@ -1,0 +1,8 @@
+function generateRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+let min = 1;
+let max = 10;
+console.log(generateRandomNumber(min, max));
+
